@@ -25,7 +25,7 @@ function ExistingDresses() {
   
 
   const restoreDress = async (id, slotId) => {
-    fetch(`http://192.168.25.112/${slotId}`)
+    fetch(`http://192.168.161.112/${slotId}`)
       .then((response) => console.log(response))
       .catch((error) => console.error("Error:", error));
 
